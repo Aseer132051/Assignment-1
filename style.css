@@ -17,6 +17,7 @@ span{
 }
 .half img{
     width: 80%;
+    border-radius: 50%;
 }
 .click{
     color: white;
@@ -25,4 +26,8 @@ span{
     background-image: linear-gradient(to bottom right,orange,red);
     padding: 10px 30px;
     border-radius: 20px;
+}
+.back-img{
+    background-image: url(Img/back.png);
+    background-repeat: no-repeat;
 }

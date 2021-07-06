@@ -7,6 +7,10 @@ body{
 }
 h1{
     font-size: 50px;
+    color: rgb(71, 59, 59);
+}
+h2{
+    color: gray;
 }
 .half{
     width: 50%;
@@ -30,4 +34,19 @@ span{
 .back-img{
     background-image: url(Img/back.png);
     background-repeat: no-repeat;
+} 
+.box{
+    box-shadow:10px 10px 5px gray;
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+    margin: 50px;
+}
+.box img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.center{
+    text-align: center;
 }

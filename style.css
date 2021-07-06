@@ -4,12 +4,14 @@ body{
 }
 .flex{
     display: flex;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 50px;
     color: rgb(71, 59, 59);
 }
 h2{
+    font-size: 40px;
     color: gray;
 }
 .half{
@@ -28,8 +30,8 @@ span{
     font-weight: 700;
     text-decoration: none;
     background-image: linear-gradient(to bottom right,orange,red);
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 20px 40px;
+    border-radius: 30px;
 }
 .back-img{
     background-image: url(Img/back.png);
@@ -41,6 +43,7 @@ span{
     width: 30%;
     padding: 20px;
     margin: 50px;
+    text-align: center;
 }
 .box img{
     width: 100%;
@@ -49,4 +52,10 @@ span{
 }
 .center{
     text-align: center;
+}
+.color{
+    height: 200px;
+background-color: rgb(13, 13, 14);
+color: white;
+padding-top: 20px;
 }
